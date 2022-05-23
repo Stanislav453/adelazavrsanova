@@ -1,0 +1,1075 @@
+/* *{
+    outline: 1px solid red;
+} */
+
+/* OVERLAY */
+#overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+#overlay img {
+  display: block;
+  max-width: 80%;
+  height: 80%;
+  margin: 5% auto;
+  border: 5px solid #fff;
+}
+
+/** HOME BUTTON */
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 15px;
+  z-index: 99;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: none;
+}
+
+#myBtn:hover {
+  color: #ddd;
+  transition: 1s;
+  background-color: #7e7c7c;
+}
+
+.bx-lg {
+  font-size: 5em !important;
+}
+
+/*************NAVIGÁCIA*******************/
+
+body {
+  overflow: auto;
+}
+nav {
+  background-color: #fff;
+  height: 70px;
+}
+
+nav ul {
+  line-height: 65px;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 1.5em;
+}
+
+nav ul li a {
+  font-size: 1.5em;
+  color: #9f9f9f;
+  text-decoration: none;
+  margin-left: 0.2em;
+  transition: 1s;
+}
+
+nav ul li a:hover {
+  color: #000;
+  transition: 1s;
+  background-color: #9f9f9f;
+  padding: 32.5px 45px;
+}
+
+.img-scale-foto {
+  transform: scale(1, 1);
+  transition: transform 1s;
+}
+
+.img-scale-foto:hover {
+  transform: scale(1.2, 1.2);
+  transition: transform 1s;
+}
+
+.img-scale {
+  transform: scale(1, 1);
+  transition: transform 1s;
+}
+
+.img-scale:hover {
+  transform: scale(1.3, 1.3);
+  transition: transform 1s;
+}
+
+/**** MOBILE MENU ****/
+
+.i-class {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: block;
+  padding: 0.25em;
+  color: #fff;
+  font-size: 3em !important;
+  background-color: grey;
+  cursor: pointer;
+}
+
+/************** HEADER *******************-*/
+.bg-color-grey {
+  background-color: #bebaba;
+}
+
+.bg-color-light-grey {
+  background-color: #ddd;
+}
+
+.left {
+  height: auto;
+  background-color: #bebaba;
+}
+
+.right {
+  position: absolute;
+  top: 0px;
+  right: 0;
+}
+
+h1 {
+  margin-top: 0.3em;
+  color: #000;
+  font-size: 6em;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: -0.09em;
+  line-height: 82%;
+}
+
+header h5 {
+  font-size: 1.3em;
+  margin-top: -0.5em;
+  color: #000;
+}
+
+header p {
+  margin-top: 3%;
+  max-width: 100%;
+  background-color: rgba(255, 255, 255, 0.4);
+  font-size: 2em;
+  padding: 1em 1em 1em 1em;
+}
+
+.button-link {
+  width: 100%;
+  background-color: rgba(9, 9, 9, 0.4);
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 2em;
+  font-weight: 900;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.2em;
+}
+
+.button-link:hover {
+  background-color: #000;
+  color: #fff;
+  transition: 1s;
+}
+
+.button-link a {
+  color: #000;
+  text-decoration: none;
+}
+.button-link a:hover {
+  color: #fff;
+}
+
+/************* SLIDER SHOW *************/
+
+.slider {
+  position: absolute;
+  top: 0px;
+  right: 0;
+  z-index: 2;
+  height: auto;
+}
+
+.cover {
+  position: absolute;
+  width: 100%;
+  height: 700px;
+  top: 70px;
+  right: 0;
+  z-index: 3;
+  overflow: hidden;
+}
+
+/**** O MNE - BLOCK **************/
+.o_mne {
+  background-color: #bebaba;
+  height: auto;
+  padding-bottom: 1em;
+}
+
+.o_mne p {
+  font-size: 1.5em;
+  background-color: #ddd;
+  padding: 2em;
+  line-height: 1.6em;
+}
+
+/****** SLUŽBY BLOCK **************************/
+.sluzby header {
+  max-width: 100%;
+  background-color: #ddd;
+  border-bottom: 5px solid #000;
+}
+
+.sluzby .Smiddle header,
+.kontakt header {
+  margin: 0;
+  padding: 0;
+  border-bottom: 5px solid #000;
+}
+
+h2 {
+  font-size: 7em;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.sluzby h3,
+.kontakt h3 {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  padding: 0.5em;
+  padding-bottom: 0.2em;
+}
+
+.sluzby ul {
+  margin-top: 1em;
+  font-size: 1.5em;
+  padding-right: 1em;
+}
+
+.sluzby h4 {
+  font-weight: 900;
+  margin-left: 1.4em;
+  margin-bottom: 0.4em;
+}
+
+.sluzby ul li {
+  margin-top: 0.7em;
+}
+
+.Sright,
+.Sleft {
+  background-color: #bebaba;
+  height: auto;
+  padding-bottom: 2em;
+}
+
+.Sleft ul li {
+  margin-left: 1em;
+}
+
+.Smiddle {
+  height: auto;
+  background-color: #ddd;
+  padding-bottom: 2em;
+}
+
+/******** PRIDAJ SA BLOCK *********************/
+
+.mam_zaujem {
+  background-color: #bebaba;
+  height: auto;
+  padding-bottom: 5em;
+}
+
+/*FORMULÁR - MÁM ZÁUJEM */
+.form {
+  margin: 0 auto;
+}
+
+/****** KONTAKT BLOCK **************************/
+
+.kontakt h4 {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+.kontakt a {
+  color: #000;
+  font-size: 1.5em;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.kontakt a:hover {
+  text-decoration: underline;
+}
+
+.kontakt li {
+  padding-top: 1.5em;
+  list-style-type: none;
+}
+
+.header-2 {
+  background-color: #bebaba !important;
+}
+
+.header1 {
+  background-color: #ddd !important;
+}
+
+.Kleft {
+  background-color: #bebaba;
+  height: auto;
+  padding-bottom: 3em;
+}
+
+.Kright {
+  background-color: #ddd;
+  height: auto;
+  padding-bottom: 3em;
+}
+
+.center-right {
+  margin: 0 auto;
+}
+
+.ul-w {
+  width: 95%;
+  height: 85%;
+}
+
+/********** FOOTER ************/
+
+footer {
+  background-color: rgb(51, 50, 50);
+  height: 100px;
+}
+
+.menu-footer li {
+  display: inline-block;
+  margin-right: 2em;
+}
+
+.menu-footer li a {
+  text-align: center;
+  color: #fff;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+/**** HOME BUTTON **********************/
+
+.home {
+  display: block;
+  position: fixed;
+  bottom: 0;
+  right: 0.1em;
+  z-index: 50;
+  color: #000;
+  opacity: 0.7;
+  font-size: 5em;
+}
+
+.home:hover,
+.home:focus {
+  color: #000;
+  opacity: 1;
+  transition: opacity 1s;
+}
+
+@media only screen and (min-width: 320px) {
+  h2 {
+    font-size: 3em;
+  }
+
+  /* NAVIGACIA BLOCK */
+
+  /* HEADER */
+  h1 {
+    font-size: 3em;
+    margin-top: 117%;
+  }
+
+  .hide-h2 {
+    visibility: hidden;
+  }
+
+  .h1-hide {
+    display: none;
+  }
+
+  header p {
+    font-size: 1em;
+  }
+
+  .button-link {
+    font-size: 1.5em;
+  }
+
+  /* O MNE */
+
+  .o_mne p {
+    font-size: 1em;
+  }
+
+  /* SLUZBY */
+
+  .sluzby ul {
+    font-size: 1em;
+  }
+
+  .sluzby h4 {
+    font-size: 1em;
+  }
+
+  .h-color {
+    background-color: #ddd !important;
+  }
+
+  .b-color {
+    background-color: #bebaba;
+  }
+
+  .Smiddle header {
+    background-color: #ddd;
+  }
+
+  .Smiddle {
+    background-color: #bebaba;
+  }
+
+  .Sright header {
+    background-color: #ddd;
+  }
+
+  .Sright {
+    background-color: #bebaba;
+  }
+
+  .Sleft header {
+    background-color: #ddd;
+  }
+
+  .Sleft {
+    background-color: #bebaba;
+  }
+
+  /* KONTAKT */
+
+  .ul-w {
+    padding-left: 0.8em;
+  }
+
+  .kontakt a {
+    font-size: 1em;
+  }
+
+  .kontakt li {
+    padding-top: 1em;
+  }
+
+  .bx-md {
+    font-size: 1.2rem !important;
+  }
+
+  .bx-md {
+    font-size: 1.5rem !important;
+  }
+
+  .header-2 {
+    background-color: #ddd !important;
+  }
+
+  /* BACK TO TOP */
+  .bx-lg {
+    font-size: 3em !important;
+  }
+}
+
+@media only screen and (min-width: 375px) {
+  /* navigacia */
+
+  h2 {
+    font-size: 3.7em;
+  }
+
+  /* HEADER */
+  h1 {
+    font-size: 3.5em;
+    margin-top: 119%;
+  }
+
+  .hide-h2 {
+    visibility: hidden;
+  }
+
+  .h1-hide {
+    display: none;
+  }
+
+  header p {
+    font-size: 1em;
+  }
+
+  .button-link {
+    font-size: 1.5em;
+  }
+
+  /* O MNE */
+
+  .o_mne p {
+    font-size: 1em;
+  }
+
+  /* SLUZBY */
+
+  .sluzby ul {
+    font-size: 1em;
+  }
+
+  .sluzby h4 {
+    font-size: 1em;
+  }
+
+  .Kright {
+    background-color: #bebaba;
+  }
+  .Smiddle header {
+    background-color: #ddd;
+  }
+
+  .Smiddle {
+    background-color: #bebaba;
+  }
+
+  .Sright header {
+    background-color: #ddd;
+  }
+
+  .Sright {
+    background-color: #bebaba;
+  }
+
+  .Sleft header {
+    background-color: #ddd;
+  }
+
+  .Sleft {
+    background-color: #bebaba;
+  }
+
+  /* KONTAKT */
+
+  .ul-w {
+    padding-left: 2em;
+  }
+
+  .kontakt a {
+    font-size: 1em;
+  }
+
+  .kontakt li {
+    padding-top: 1em;
+  }
+
+  .bx-md {
+    font-size: 1.5rem !important;
+  }
+
+  .header-2 {
+    background-color: #ddd !important;
+  }
+  /* BACK TO TOP */
+  .bx-lg {
+    font-size: 3em !important;
+  }
+}
+
+@media only screen and (min-width: 425px) {
+  h2 {
+    font-size: 4em;
+  }
+
+  /* NAVIGACIA BLOCK */
+
+  /* HEADER */
+  h1 {
+    font-size: 4em;
+    margin-top: 85%;
+  }
+
+  .hide-h2 {
+    visibility: hidden;
+  }
+
+  .h1-hide {
+    display: none;
+  }
+
+  header p {
+    font-size: 1.3em;
+  }
+
+  .button-link {
+    font-size: 1.5em;
+  }
+
+  /* O MNE */
+
+  .o_mne p {
+    font-size: 1.1em;
+  }
+
+  /* SLUZBY */
+
+  .sluzby ul {
+    font-size: 1em;
+  }
+
+  .Sleft {
+    background-color: #ddd;
+  }
+
+  .sluzby h4 {
+    font-size: 1em;
+  }
+
+  .sluzby header {
+    background-color: #bebaba;
+  }
+  .Smiddle header {
+    background-color: #ddd;
+  }
+
+  .Smiddle {
+    background-color: #bebaba;
+  }
+
+  .Sright header {
+    background-color: #ddd;
+  }
+
+  .Sright {
+    background-color: #bebaba;
+  }
+
+  .Sleft header {
+    background-color: #ddd;
+  }
+
+  .Sleft {
+    background-color: #bebaba;
+  }
+
+  /* KONTAKT */
+
+  .ul-w {
+    padding-left: 2em;
+  }
+
+  .kontakt a {
+    font-size: 1.1em;
+  }
+
+  .kontakt li {
+    padding-top: 1em;
+  }
+
+  .bx-md {
+    font-size: 1.5rem !important;
+  }
+
+  .header-2 {
+    background-color: #ddd !important;
+  }
+
+  .Kright {
+    background-color: #bebaba;
+  }
+}
+
+/* Mobile menu hide */
+@media (max-width: 767px) {
+    
+    
+      /*** overlay **/
+
+  #overlay img {
+    height: auto;
+  }
+
+
+  .mobileMenu {
+    z-index: 10;
+    padding: 0;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    display: none;
+    background-color: rgba(88, 83, 83, 0.9);
+  }
+
+  nav li {
+    width: 100%;
+    margin-left: 0;
+    display: block;
+    border-bottom: 1px solid #000;
+  }
+
+  nav li:last-child {
+    border: 0;
+  }
+
+  nav li:hover {
+    width: 100%;
+    display: block;
+    background-color: #fff;
+  }
+
+  nav ul li a {
+    width: 100%;
+    display: block;
+    font-weight: 900;
+    color: #fff;
+    margin-left: 10px;
+  }
+
+  nav ul li a:hover {
+    background-color: #fff;
+    border: 0;
+  }
+
+  /* BACK TO TOP */
+  .bx-lg {
+    font-size: 3em !important;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  h2 {
+    font-size: 7em;
+  }
+
+  h1 {
+    font-size: 6em;
+    margin-top: 33%;
+  }
+
+  /* NAVIGACIA BLOCK */
+
+  .i-class {
+    display: none;
+  }
+
+  nav ul li a {
+    font-size: 1em;
+  }
+
+  /* HEADER BLOCK */
+
+  .hide-h2 {
+    visibility: hidden;
+  }
+
+  header p {
+    font-size: 2em;
+  }
+
+  .button-link {
+    font-size: 2em;
+  }
+  /* O MNE */
+
+  .o_mne p {
+    font-size: 1.5em;
+  }
+
+  /* SLUZBY */
+
+  .sluzby ul {
+    font-size: 1.5em;
+  }
+
+  .sluzby h4 {
+    font-size: 1.5em;
+  }
+
+  .Smiddle header {
+    background-color: #ddd;
+  }
+
+  .Smiddle {
+    background-color: #bebaba;
+  }
+
+  .Sright header {
+    background-color: #ddd;
+  }
+
+  .Sright {
+    background-color: #bebaba;
+  }
+
+  .Sleft header {
+    background-color: #ddd;
+  }
+
+  .Sleft {
+    background-color: #bebaba;
+  }
+
+  /* KONTAKT */
+
+  .ul-w {
+    padding-left: 2em;
+  }
+
+  .kontakt a {
+    font-size: 1.5em;
+  }
+
+  .kontakt li {
+    padding-top: 1.5em;
+  }
+
+  .bx-md {
+    font-size: 2.25rem !important;
+  }
+
+  .header-2 {
+    background-color: #ddd !important;
+  }
+
+  .Kright {
+    background-color: #bebaba;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  h2 {
+    font-size: 7em;
+  }
+
+  /* NAVIGACIA BLOCK */
+  .i-class {
+    display: none;
+  }
+
+  nav ul li a {
+    font-size: 1.5em;
+  }
+
+  /* HEDER */
+
+  h1 {
+    font-size: 4em;
+    margin-top: 0.3em;
+  }
+
+  .h1-hide {
+    display: block;
+  }
+
+  .hide-h2 {
+    visibility: visible;
+  }
+
+  .hide-h {
+    display: none;
+  }
+
+  header p {
+    font-size: 2em;
+  }
+
+  .button-link {
+    font-size: 2em;
+  }
+
+  /* O MNE */
+
+  .o_mne p {
+    font-size: 1em;
+  }
+
+  /* SLUZBY */
+
+  .sluzby ul {
+    font-size: 1.5em;
+  }
+
+  .sluzby h4 {
+    font-size: 1.5em;
+  }
+
+  .Smiddle header {
+    background-color: #bebaba;
+  }
+
+  .Smiddle {
+    background-color: #ddd;
+  }
+
+  .Sright header {
+    background-color: #ddd;
+  }
+
+  .Sright {
+    background-color: #bebaba;
+  }
+
+  .Sleft header {
+    background-color: #ddd;
+  }
+
+  .Sleft {
+    background-color: #bebaba;
+  }
+
+  /* KONTAKT */
+
+  .ul-w {
+    padding-left: 2em;
+  }
+
+  .kontakt a {
+    font-size: 1.5em;
+  }
+
+  .kontakt li {
+    padding-top: 1.5em;
+  }
+
+  .bx-md {
+    font-size: 2.25rem !important;
+  }
+
+  .header-2 {
+    background-color: #ddd !important;
+  }
+
+  .Kright {
+    background-color: #bebaba;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  h2 {
+    font-size: 7em;
+  }
+
+  /* NAVIGACIA BLOCK */
+  .i-class {
+    display: none;
+  }
+
+  nav ul li a {
+    font-size: 1.5em;
+  }
+
+  /* HEDER */
+
+  h1 {
+    font-size: 6em;
+  }
+
+  .h1-hide {
+    display: block;
+  }
+
+  .hide-h2 {
+    visibility: visible;
+  }
+
+  .hide-h {
+    display: none;
+  }
+
+  header p {
+    font-size: 2em;
+  }
+
+  .button-link {
+    font-size: 2em;
+  }
+
+  /* O MNE */
+
+  .o_mne p {
+    font-size: 1.5em;
+  }
+
+  /* SLUZBY */
+
+  .sluzby ul {
+    font-size: 1.5em;
+  }
+
+  .sluzby h4 {
+    font-size: 1.5em;
+  }
+
+  .Smiddle header {
+    background-color: #bebaba;
+  }
+
+  .Smiddle {
+    background-color: #ddd;
+  }
+
+  .Sright header {
+    background-color: #ddd;
+  }
+
+  .Sright {
+    background-color: #bebaba;
+  }
+
+  .Sleft header {
+    background-color: #ddd;
+  }
+
+  .Sleft {
+    background-color: #bebaba;
+  }
+
+  /* KONTAKT */
+
+  .ul-w {
+    padding-left: 2em;
+  }
+
+  .kontakt li {
+    padding-top: 1.5em;
+  }
+
+  .kontakt a {
+    font-size: 1.5em;
+  }
+
+  .bx-m {
+    font-size: 2.25rem !important;
+  }
+
+  .header-2 {
+    background-color: #bebaba !important;
+  }
+
+  .Kright {
+    background-color: #ddd;
+  }
+
+  /* BACK TO TOP */
+  .bx-lg {
+    font-size: 5em !important;
+  }
+}
